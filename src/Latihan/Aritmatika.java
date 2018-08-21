@@ -12,8 +12,8 @@ package Latihan;
 public class Aritmatika {
     public static void main(String[] args) {
         int bilA, bilB, hasil;
-        bilA = 100;
-        bilB = 200;
+        bilA = 900;
+        bilB = 10000;
         hasil =bilA + bilB;
         System.out.println("Hasil Penjumlahan kedua bilangan : ");
         System.out.println (hasil);

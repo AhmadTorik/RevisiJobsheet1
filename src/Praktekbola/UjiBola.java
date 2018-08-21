@@ -3,16 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Latihan;
+package Praktekbola;
+
+import Bab2Enkakulapsi.Praktik.Bola;
 
 /**
  *
  * @author ASUS
  */
-public class HelloTelkom {
-    public static void main(String[]torik)
-    {
-        System.out.println("hello");
-        System.out.println("Selamat Belajar Di Program Java");
-    }
+public class UjiBola {
+    
 }

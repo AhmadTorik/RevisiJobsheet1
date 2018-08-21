@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Bab2Enkakulapsi;
+package Praktekbola;
+
+import Bab2Enkakulapsi.Praktik;
 
 /**
  *
  * @author ASUS
  */
-public class Praktik {
-
-    public class Bola
-    {
+public class KodeBola {
+     
         public int jarijari;
         public double phi=3.14;
         
@@ -49,7 +49,14 @@ public class Praktik {
             volume = (4*Math.PI*jarijari*jarijari);
             System.out.println("Luas Permukaan = "+volume+"cm");
         }
-    }
-   
     
+      public static void main(String[]args)
+    {
+        KodeBola jumlah = new KodeBola ();
+        jumlah.setjarijari(7);
+        jumlah.setShowDiameter();
+        jumlah.setShowLuasPermukaan();
+        jumlah.setShowVolume();
+        
+    }
 }
